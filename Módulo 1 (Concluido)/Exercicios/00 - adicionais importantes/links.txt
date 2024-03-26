@@ -1,0 +1,19 @@
+**<link rel="stylesheet" href="style.css">**: Define o link para um arquivo de estilo externo.
+
+**<link rel="alternate" href="pagina.html" type="tipo">**: Especifica uma versão alternativa da página atual, como uma versão traduzida.
+
+**<link rel="icon" href="favicon.ico" type="image/x-icon">**: Define o ícone (favicon) que será exibido na barra de endereço do navegador.
+
+<link rel="preconnect" href="https://example.com">\: Indica ao navegador para iniciar a conexão com o servidor especificado antes de fazer uma solicitação HTTP.
+
+**<link rel="prefetch" href="pagina.html">**: Solicita que o navegador busque e armazene em cache a página especificada para uso futuro.
+
+**<link rel="dns-prefetch" href="//example.com">**: Solicita que o navegador faça pré-resolução de DNS para o domínio especificado.
+
+**<link rel="preload" href="arquivo.css" as="style">**: Solicita ao navegador que carregue um recurso, como um arquivo CSS, em segundo plano para melhorar o desempenho.
+
+**<link rel="manifest" href="manifest.json">**: Especifica o arquivo de manifesto da Web usado por aplicativos da Web progressivos (PWAs) para definir seu comportamento e aparência.
+
+**<link rel="canonical" href="pagina.html">**: Indica ao mecanismo de pesquisa a URL preferencial ou canônica para uma página, útil para evitar conteúdo duplicado.
+
+<link rel="stylesheet" href="https://cdn.example.com/style.css">\: Um exemplo de uso de link para um arquivo de estilo hospedado em um CDN (Content Delivery Network).

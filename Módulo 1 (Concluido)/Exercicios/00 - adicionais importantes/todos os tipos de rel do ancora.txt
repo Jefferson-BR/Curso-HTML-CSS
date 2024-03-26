@@ -1,0 +1,39 @@
+rel="nofollow": Indica aos mecanismos de busca que não devem seguir o link. Isso é comumente usado em links para sites externos onde o webmaster não deseja passar "link juice" (valor de SEO) para o site vinculado.
+
+rel="noopener": Quando um link é aberto em uma nova aba usando target="_blank", esta tag ajuda a evitar que a nova página acesse o contexto da página de origem, melhorando a segurança.
+
+rel="noreferrer": Similar ao rel="noopener", esta tag impede que o navegador envie o cabeçalho Referer ao abrir a nova página, o que pode ajudar a proteger a privacidade do usuário.
+
+rel="nofollow noreferrer": Combinação dos dois valores acima, indicando que o link não deve ser seguido por mecanismos de busca e que o cabeçalho Referer não deve ser enviado ao abrir a nova página.
+
+rel="nofollow noopener": Outra combinação comum, indicando que o link não deve ser seguido por mecanismos de busca e que a nova página não deve acessar o contexto da página de origem.
+
+rel="external": Indica que o link é para um recurso externo ao site atual.
+
+rel="alternate": Indica uma versão alternativa do conteúdo da página atual, como uma tradução em outro idioma ou um formato diferente.
+
+rel="author": Usado para indicar a autoria da página ou do conteúdo vinculado.
+
+rel="bookmark": Indica que o link é um marcador interno na página.
+
+rel="help": Indica que o link leva a uma página de ajuda.
+
+rel="license": Indica a licença do documento vinculado.
+
+rel="next": Indica a próxima página na sequência lógica.
+
+rel="prev": Indica a página anterior na sequência lógica.
+
+rel="search": Indica que o link leva a uma página de pesquisa.
+
+rel="tag": Indica que o link é um marcador ou tag associado ao documento.
+
+rel="stylesheet": Indica que o link é para uma folha de estilos.
+
+rel="sidebar": Indica que o link é para uma barra lateral relacionada.
+
+rel="noopener noreferrer": Combinação de noopener e noreferrer.
+
+rel="nofollow noopener noreferrer": Combinação de nofollow, noopener e noreferrer.
+
+rel="external nofollow": Indica que o link é externo e não deve ser seguido por mecanismos de busca.

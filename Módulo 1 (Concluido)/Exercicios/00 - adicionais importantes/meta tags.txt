@@ -1,0 +1,82 @@
+<meta charset="valor">: Define o conjunto de caracteres do documento.
+
+<meta name="viewport" content="valor">: Controla a forma como a página é renderizada em dispositivos móveis.
+
+<meta name="description" content="valor">: Fornecer uma descrição do conteúdo do documento.
+
+<meta name="keywords" content="valor">: Lista de palavras-chave relevantes para o documento.
+
+<meta name="author" content="valor">: Especifica o autor do documento.
+
+<meta name="robots" content="valor">: Controla a indexação e rastreamento de mecanismos de busca.
+
+<meta http-equiv="refresh" content="valor">: Redireciona ou recarrega automaticamente a página.
+
+<meta name="generator" content="valor">: Indica qual ferramenta foi usada para gerar o documento.
+
+<meta name="apple-mobile-web-app-title" content="valor">: Define o nome do aplicativo da web para dispositivos iOS (PWA).
+
+<meta name="referrer" content="valor">: Controla a política de referência para links.
+
+<meta name="theme-color" content="valor">: Define a cor de destaque do tema para dispositivos móveis.
+
+<meta name="format-detection" content="valor">: Controla a detecção automática de formatos, como números de telefone.
+
+<meta http-equiv="content-type" content="valor">: Define o tipo de conteúdo do documento.
+
+<meta http-equiv="cache-control" content="valor">: Controla o cache do navegador.
+
+<meta http-equiv="pragma" content="valor">: Controla o cache do navegador em navegadores antigos.
+
+<meta http-equiv="expires" content="valor">: Define uma data de expiração para o cache do navegador.
+
+<meta http-equiv="refresh" content="valor">: Redireciona ou recarrega automaticamente a página.
+
+<meta http-equiv="content-language" content="valor">: Define o idioma do conteúdo do documento.
+
+<meta http-equiv="x-ua-compatible" content="valor">: Controla a compatibilidade do navegador.
+
+<meta http-equiv="set-cookie" content="valor">: Define um cookie HTTP na resposta do servidor.
+
+<meta name="referrer" content="valor">: Controla como informações de referência são passadas para links de saída.
+
+<meta name="robots" content="valor">: Controla a indexação e rastreamento de mecanismos de busca.
+
+<meta name="fragment" content="valor">: Indica que o conteúdo do documento é fragmentado.
+
+<meta name="twitter:card" content="valor">: Define o tipo de cartão do Twitter para a página.
+
+<meta name="twitter:site" content="valor">: Define o nome de usuário do Twitter associado ao site.
+
+<meta name="twitter:title" content="valor">: Define o título do Twitter para a página.
+
+<meta name="twitter:description" content="valor">: Define a descrição do Twitter para a página.
+
+<meta name="twitter:image" content="valor">: Define a imagem do Twitter para a página.
+
+<meta property="og:title" content="valor">: Define o título para o compartilhamento em redes sociais.
+
+<meta property="og:type" content="valor">: Define o tipo de conteúdo para o compartilhamento em redes sociais.
+
+<meta property="og:image" content="valor">: Define a imagem para o compartilhamento em redes sociais.
+
+<meta property="og:url" content="valor">: Define o URL para o compartilhamento em redes sociais.
+
+<meta property="og:description" content="valor">: Define a descrição para o compartilhamento em redes sociais.
+
+
+
+Adicionais e complementos:
+
+
+<meta http-equiv="refresh" content="seconds; url=URL">: Redireciona automaticamente o navegador para outra página após um determinado número de segundos.
+
+<meta http-equiv="pragma" content="value">: Define a política de cache para a página. Os valores comuns incluem no-cache, no-store, public, private, etc.
+
+<meta http-equiv="cache-control" content="value">: Similar a <meta http-equiv="pragma">, define a política de cache para a página.
+
+<meta http-equiv="expires" content="value">: Define a data de expiração do cache para a página.
+
+<meta name="referrer" content="value">: Controla o comportamento do cabeçalho Referer quando os usuários seguem links para fora da página. Os valores comuns incluem no-referrer, origin, origin-when-cross-origin, same-origin, etc.
+
+<meta name="format-detection" content="value">: Controla a detecção automática de formatos de números de telefone e endereços na página. Os valores comuns incluem telephone=no, address=no.

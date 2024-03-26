@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pre e code</title>
+</head>
+<body>
+    <h1>Abaixo um exemplo de como a tag pre e a tag code funcionam:</h1>
+    <!-- Define um bloco de texto pré-formatado, preservando espaçamento e quebras de linha (ou seja diferente da tag <code> essa tag serve para indentar(indentação) o código'pre')-->
+    <pre>
+        <!-- Define uma seção de código pré-formatado -->
+        <code>
+<h2>Código JavaScript:</h2>
+
+    class ComplexClass {
+        constructor(param1, param2) {
+            this.param1 = param1;
+            this.param2 = param2;
+        }
+        
+        performComplexOperation() {
+            let result = 0;
+            for (let i = 0; i < this.param1; i++) {
+            for (let j = 0; j < this.param2; j++) {
+                result += i * j;
+            }
+            }
+            return result;
+        }
+        
+        async performAsyncOperation() {
+            try {
+            const data = await fetchData();
+            const processedData = this.processData(data);
+            await this.saveData(processedData);
+            return processedData;
+            } catch (error) {
+            console.error('Erro durante a operação assíncrona:', error);
+            throw error;
+            }
+        }
+        
+        processData(data) {
+            let result = [];
+            for (const item of data) {
+            if (item.isValid()) {
+                result.push(item.transform());
+            }
+            }
+            return result;
+        }
+        
+        async saveData(data) {
+            return new Promise((resolve, reject) => {
+            setTimeout(() => {
+                console.log('Dados salvos com sucesso:', data);
+                resolve();
+            }, 2000);
+            });
+        }
+        }
+        
+        async function fetchData() {
+        return new Promise((resolve, reject) => {
+            setTimeout(() => {
+            const data = [/* Dados fictícios */];
+            resolve(data);
+            }, 3000);
+        });
+        }
+        
+        const complexInstance = new ComplexClass(10, 20);
+        
+        complexInstance.performAsyncOperation()
+        .then(result => {
+            console.log('Operação assíncrona concluída:', result);
+        })
+        .catch(error => {
+            console.error('Erro durante a execução:', error);
+        });              
+        </code>
+    </pre>
+
+<h2>Citação Simples</h2>
+<p><q>Essa citação é simples</q></p>
+<h2>Citação Completa</h2>
+<p><blockquote cite="URL da fonte do autor">Minha citação de mim mesmo</blockquote></p>
+
+<!-- <q> é usado para indicar uma citação curta dentro de um texto. O navegador geralmente formata o conteúdo dentro da tag <q> com aspas duplas. -->
+
+<!-- <blockquote> é usado para indicar uma citação em bloco, que geralmente consiste em um parágrafo longo ou várias frases. O navegador normalmente indenta e/ou altera o estilo para destacar visualmente o bloco de citação. O atributo 'cite' dentro da tag <blockquote> é opcional e é usado para fornecer um URL que indica a fonte da citação. -->
+
+<h2>Abreviação</h2>
+<p style="font-size: 30px;"><abbr title="Esse texto é apenas um exemplo de como funciona a abbr que tem a finalidade de abreviar algo">Deixe o mouse parado em cima desse texto</abbr></p>
+
+<!-- <abbr> é usado para definir uma abreviação ou acrônimo. O atributo 'title' especifica o texto completo que será exibido quando o mouse passar sobre a abreviação. -->
+
+</body>
+</html>

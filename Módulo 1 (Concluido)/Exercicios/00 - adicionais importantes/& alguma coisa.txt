@@ -1,0 +1,36 @@
+Entidades HTML são códigos especiais usados em documentos HTML para representar caracteres especiais ou reservados, como "<", ">", "&", etc. Em HTML, certos caracteres têm significados especiais, como o sinal de menor que ("<") usado para iniciar uma tag HTML. Se quisermos exibir esses caracteres literalmente em uma página da web, usamos entidades HTML. Por exemplo, para mostrar o símbolo "<" em uma página da web, usamos a entidade &lt;. Essas entidades garantem que os caracteres sejam interpretados corretamente pelos navegadores, mesmo quando eles têm significados especiais em HTML.
+
+Exemplo de entidades html abaixo:
+
+&lt; - Menor que (<).
+&gt; - Maior que (>).
+&amp; - E comercial (&).
+&quot; - Aspas duplas ("").
+&copy; - Símbolo de direitos autorais ©.
+&reg; - Símbolo de marca registrada ®.
+&trade; - Símbolo de marca comercial ™.
+&euro; - Símbolo do euro €.
+&pound; - Símbolo da libra esterlina £.
+&yen; - Símbolo do iene japonês ¥.
+&cent; - Símbolo de centavo ¢.
+&sect; - Símbolo de seção §.
+&para; - Símbolo de parágrafo ¶.
+&deg; - Símbolo de grau °.
+&plusmn; - Mais ou menos ±.
+&times; - Símbolo de multiplicação ×.
+&divide; - Símbolo de divisão ÷.
+&frac12; - Meio ½.
+&frac14; - Quarto ¼.
+&frac34; - Três quartos ¾.
+&ndash; - Traço en (–).
+&mdash; - Traço em (—).
+&laquo; - Citação de abertura dupla «.
+&raquo; - Citação de fechamento dupla ».
+&nbsp; - Espaço em branco não quebrável.
+&hellip;: Representa o caractere de reticências "…" (três pontos).
+&ordm;: Representa o ordinal masculino "º".
+&middot;: Representa o ponto médio "·".
+&cedil;: Representa a cedilha "¸".
+&ordf;: Representa o ordinal feminino "ª"
+&macr;: Representa a macron "¯".
+&sup2;: Representa o sobrescrito dois "²".

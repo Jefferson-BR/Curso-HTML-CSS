@@ -1,0 +1,89 @@
+Quando usar cada formato de imagem ?
+
+Explicação abaixo:
+
+PNG - (Portable Network Graphics):
+Ideal para imagens com áreas de cores sólidas e gráficos simples.
+Suporta transparência.
+Formato sem perdas, mantendo a qualidade da imagem.
+Pode resultar em tamanhos de arquivo maiores para fotografias ou imagens complexas.
+
+
+JPG/JPEG - (Joint Photographic Experts Group):
+Ótimo para fotografias e imagens com gradientes suaves.
+Compressão com perdas, resultando em alguma perda de qualidade.
+Tamanho de arquivo geralmente menor em comparação com PNG.
+Não suporta transparência.
+
+
+GIF - (Graphics Interchange Format):
+Mais adequado para imagens simples, gráficos com poucas cores e animações simples.
+Suporta transparência, mas apenas em um formato de 1-bit.
+Usa compressão sem perdas, mas é limitado a 256 cores, o que pode resultar em qualidade reduzida para imagens complexas.
+
+
+WebP:
+Desenvolvido pelo Google, combina a qualidade do PNG com a compressão eficiente do JPG.
+Suporta transparência.
+Tamanhos de arquivo menores em comparação com PNG e JPG, mantendo uma boa qualidade.
+Pode não ser compatível com todos os navegadores, especialmente versões mais antigas.
+
+
+TIFF - (Tagged Image File Format):
+Usado principalmente em aplicações profissionais e de impressão.
+Suporta múltiplas camadas, cores e profundidade de bits.
+Formato sem perdas, preservando toda a qualidade da imagem.
+Tamanhos de arquivo geralmente grandes, não ideal para uso na web.
+
+
+BMP - (Bitmap):
+Formato básico sem compressão comum em sistemas Windows.
+Qualidade de imagem de alta fidelidade, mas tamanhos de arquivo grandes.
+Não suporta transparência.
+
+----------------------------------------------------------------------------------------
+
+
+
+Qual resolução e qual tamanho do arquivo usar para ter um equilibrio de qualidade e tamanho do arquivo ?
+
+Ícones e elementos pequenos:
+Resolução: 16x16 pixels a 64x64 pixels
+Estes são utilizados para ícones de navegação, botões e outros elementos pequenos.
+
+
+Miniaturas de produtos e galerias:
+Resolução: 150x150 pixels a 300x300 pixels
+Miniaturas de produtos em páginas de comércio eletrônico ou galerias de imagens.
+
+
+Imagens de largura total em sites responsivos:
+Resolução: 1200 pixels a 1920 pixels de largura
+Imagens que se estendem pela largura da tela em sites responsivos.
+
+
+Imagens de destaque ou banners:
+Resolução: 800 pixels a 1200 pixels de largura
+Imagens usadas como banners ou imagens de destaque em páginas.
+
+
+Tamanhos de Arquivo (para JPG como referência):
+
+Pequenos e rápidos para carregar:
+Tamanho de arquivo: 20 KB a 100 KB por imagem
+Para ícones, miniaturas e imagens pequenas.
+
+
+Moderados para imagens de largura total e banners:
+Tamanho de arquivo: 100 KB a 300 KB por imagem
+Para imagens que ocupam a largura total da tela ou são usadas como banners.
+
+
+Otimizados para desempenho e qualidade:
+Tamanho de arquivo: 300 KB a 800 KB por imagem
+Para imagens de alta qualidade em páginas importantes.
+
+
+Evitar tamanhos muito grandes:
+Tamanho de arquivo: Evite exceder 1 MB por imagem
+Tamanhos maiores podem impactar negativamente no tempo de carregamento da página.

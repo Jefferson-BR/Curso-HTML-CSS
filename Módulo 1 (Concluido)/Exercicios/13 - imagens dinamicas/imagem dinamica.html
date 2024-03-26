@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem Dinamica</title>
+</head>
+<body>
+
+    <!--
+        Importante: 
+    
+        - A ordem correta é de baixo para cima ou seja... imagem que vc quer, imagem media e por fim imagem pequena.
+
+        - imagem para determinada resolução exemplo: 600px (imagem pequena vai ser carregada a partir dessa resolução)
+        - imagem para determinada resolução exemplo: 800px (imagem media vai ser carregada a partir dessa resolução)
+        - imagem de sua preferencia
+    -->
+
+
+    <!-- Início do elemento picture para imagens responsivas -->
+<picture>
+    <!-- Define uma fonte de imagem para dispositivos com largura de tela máxima de 600 pixels -->
+    <source media="(max-width: 600px)" srcset="imagem-pequena.jpg" type="image/jpg">
+    <!-- Define uma fonte de imagem para dispositivos com largura de tela máxima de 800 pixels -->
+    <source media="(max-width: 800px)" srcset="imagem-media.jpg" type="image/jpg">
+    <img src="imagem-grande.jpg" alt="imagem-flexivel">
+</picture>
+<!-- Fim do elemento picture -->
+</body>
+</html>

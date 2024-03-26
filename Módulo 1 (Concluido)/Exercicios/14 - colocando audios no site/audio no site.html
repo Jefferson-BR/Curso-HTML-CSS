@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <audio src="" controls></audio><br> <!-- Esse é um dos jeitos de colocar audio-->
+
+    <!-- Esse é o segundo jeito de colocar audio para ter mais compatibilidade-->
+    
+    <!-- Início da tag de áudio -->
+<audio preload="metadata" controls autoplay loop>
+    <!-- Primeira fonte de áudio no formato MP3 -->
+    <source src="NEFFEX.mp3" type="audio/mpeg">
+    <!-- Segunda fonte de áudio no formato OGG -->
+    <source src="NEFFEX.ogg" type="audio/ogg">
+    <!-- Terceira fonte de áudio no formato WAV -->
+    <source src="NEFFEX.wav" type="audio/wav">
+</audio>
+<!-- Fim da tag de áudio -->
+
+<!--
+
+- preload="metadata": Indica ao navegador que apenas os metadados do arquivo de áudio devem ser pré-carregados.
+
+- controls: Adiciona controles de reprodução padrão ao player de áudio para que o usuário possa reproduzir, pausar, avançar e retroceder o áudio.
+
+- autoplay: Faz com que o áudio comece a ser reproduzido automaticamente assim que for carregado na página.
+
+- loop: Faz com que o áudio seja reproduzido em loop, ou seja, repetidamente, até que o usuário interrompa a reprodução ou saia da página.
+
+- source: Define diferentes fontes de áudio no caso de o navegador não suportar o formato especificado. O navegador tentará reproduzir o primeiro formato suportado da lista de source.
+
+-->
+
+</body>
+</html>
