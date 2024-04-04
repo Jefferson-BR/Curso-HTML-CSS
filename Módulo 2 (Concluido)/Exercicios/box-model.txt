@@ -1,0 +1,7 @@
+Box Model: O modelo de caixa (box model) é um conceito fundamental em design de layout da web. Ele descreve como os elementos HTML são renderizados em uma página. Basicamente, cada elemento HTML é considerado uma caixa retangular, composta por conteúdo, preenchimento (padding), borda (border) e margem (margin). Esses componentes definem o espaço ocupado pelo elemento na página e afetam seu posicionamento e interação com outros elementos.
+
+Box-level e Inline-level: Esses termos referem-se aos tipos de elementos HTML e como eles se comportam no layout da página.
+
+- Elementos box-level são aqueles que ocupam toda a largura disponível do elemento pai e começam em uma nova linha, como divs, p, headings, etc.
+
+- Elementos inline-level são aqueles que fluem ao longo da linha, ocupando apenas o espaço necessário, como spans, strong, a, etc.

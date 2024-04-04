@@ -1,0 +1,1 @@
+"short hand" refere-se à prática de escrever propriedades CSS de forma abreviada. Em vez de escrever várias linhas de código para definir diferentes propriedades, você pode usar uma única linha que abrange várias propriedades relacionadas. É uma maneira mais concisa de definir estilos em comparação com a escrita completa de cada propriedade individualmente.

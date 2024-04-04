@@ -1,0 +1,58 @@
+/*
+
+**Medidas Absolutas:**
+
+- Pixels (px)
+- Polegadas (in)
+- Centímetros (cm)
+- Milímetros (mm)
+- Pontos (pt)
+- Picas (pc)
+
+**Medidas Relativas:**
+
+- Porcentagem (%)
+- EM (em)
+- Rem (rem)
+- Viewport Width (vw)
+- Viewport Height (vh)
+
+    1 EM = 16px
+*/
+
+/*
+    Font-Weight permite 4 opções:
+    - lighter
+    - normal
+    - bold
+    - bolder
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body{
+    font-family: "Lato", sans-serif;
+}
+h1{
+    font: bold 1em Arial;
+}
+/*
+Shorthand font:
+
+Ex:  
+    font-family: 'Work Sans', sans-serif;
+	font-weight: bolder;
+	font-size: 3em;
+	font-style: italic;
+
+    Simplificando:
+
+	font:  italic  bolder  3em  'Work Sans', sans-serif;
+
+- A sequência deve ser:	
+
+	font-style -> font-weight -> font-size -> font-family;
+
+- Não precisa ter todas as propriedades, mas a sequência deve ser seguida;
+*/
+

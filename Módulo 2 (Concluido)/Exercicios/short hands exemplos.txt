@@ -1,0 +1,25 @@
+Short Hands Mais Comuns:
+
+- margin
+- padding
+- background
+- border
+- font
+- box-shadow
+- outline
+- border-radius
+
+Exemplos de uso:
+
+margin: 10px 20px 15px 5px; /* cima | direita | baixo | esquerda */
+padding: 10px 20px 15px 5px; /* cima | direita | baixo | esquerda */
+background: #fff url('background.jpg') no-repeat center center; /* cor | imagem | repetição | posição */
+border: 1px solid #000; /* largura | tipo | cor */
+font: bold 12px/1.5 Arial, sans-serif; /* estilo | tamanho/altura | família da fonte */
+box-shadow: 3px 3px 5px #888; /* deslocamento horizontal | deslocamento vertical | desfoque | cor */
+outline: 2px dotted blue; /* largura | estilo | cor */
+border-radius: 10px 5px; /* superior esquerdo/direito | inferior esquerdo/direito */
+
+border-image: source slice width outset repeat;
+
+border-image: url('borda.png') 30 30 30 30 round;
