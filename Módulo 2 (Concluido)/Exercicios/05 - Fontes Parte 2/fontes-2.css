@@ -1,0 +1,28 @@
+/* 
+    Uso correto da regra @font-face:
+    Certifique-se de fornecer a fonte em diferentes formatos para garantir compatibilidade
+    com vários navegadores e dispositivos. Recomenda-se o uso dos formatos WOFF2 e WOFF para
+    uma boa compatibilidade moderna e compactação, enquanto os formatos TrueType (TTF) e OpenType (OTF)
+    podem ser incluídos para maior compatibilidade com navegadores mais antigos.
+*/
+@font-face {
+    font-family: 'NomeDaFonte';
+    src: url('caminho/para/fonte.woff2') format('woff2'),  /* Recomendado para suporte moderno e compactação */
+         url('caminho/para/fonte.woff') format('woff'),    /* Recomendado para suporte moderno */
+         url('caminho/para/fonte.ttf') format('truetype'), /* Compatibilidade com navegadores mais antigos */
+         url('caminho/para/fonte.otf') format('opentype'); /* Compatibilidade com navegadores mais antigos */
+}
+
+/* Exemplo de uso da fonte personalizada */
+seletor {
+    font-family: 'NomeDaFonte', sans-serif;
+}
+
+
+@font-face {
+    font-family: 'Cloud';
+    src: url(fonts/Something-in-the-Cloud.ttf), format('truetype'), url(fonts/Something-in-the-Cloud.otf), format('opentype');
+}
+h1{
+    font-family: 'Cloud', sans-serif;
+}

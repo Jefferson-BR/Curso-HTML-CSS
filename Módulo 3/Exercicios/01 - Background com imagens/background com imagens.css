@@ -1,0 +1,21 @@
+body{
+    background-image: url(Img/wallpaper001.jpg);
+}
+
+.color-special{
+    background-image: linear-gradient(to bottom, blue, cyan);
+}
+
+.color-special-2{
+    background-image: linear-gradient(to bottom, green, lightgreen);
+}
+
+div{
+    background-image: linear-gradient(to bottom, red, yellow);
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    border: 1px solid black;
+    margin: 0 70px;
+    border-radius: 10px;
+}

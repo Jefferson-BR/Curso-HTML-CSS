@@ -1,0 +1,25 @@
+Hierarquia de Tabelas:
+
+<table>: Esta é a tag de contêiner que define o início e o fim de uma tabela. Todo o conteúdo da tabela é colocado dentro desta tag.
+
+<caption>: Opcional, esta tag fornece um título ou legenda para a tabela. Deve ser a primeira coisa dentro da tag <table>.
+
+<thead>: Define a seção de cabeçalho da tabela. Normalmente contém linhas que representam os títulos das colunas.
+
+<tbody>: Define a seção do corpo da tabela. Contém as linhas de dados reais da tabela. Pode haver múltiplas seções de <tbody> dentro de uma mesma tabela.
+
+<tfoot>: Define a seção de rodapé da tabela. Normalmente contém linhas que representam os totais ou outras informações de resumo. Deve ser colocada antes da tag de fechamento </tbody> quando se usa múltiplas seções de <tbody>.
+
+<tr>: Define uma linha de tabela. Pode ser usada dentro de <thead>, <tbody>, ou <tfoot>.
+
+<th>: Define uma célula de cabeçalho em uma tabela. Normalmente usada dentro de uma linha (<tr>) que está em um <thead>, mas também pode ser usada em outras partes da tabela para indicar células de cabeçalho.
+
+<td>: Define uma célula de dados em uma tabela. Normalmente usada dentro de uma linha (<tr>) que está em um <tbody>.
+
+Tabela Simples Exemplo:
+
+    TABLE
+        TABLE ROW
+            TABLE HEADER
+                TABLE DATA
+

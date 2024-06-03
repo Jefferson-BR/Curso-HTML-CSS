@@ -1,0 +1,25 @@
+a{
+    color: red;
+    text-decoration: none;
+}
+
+a:hover{
+    color: darkred;
+    text-decoration: underline;
+}
+
+/* a:visited{
+    color: darkorange;
+} */
+
+a:active{
+    color: gold;
+}
+
+a::after{
+    content: '\226A';
+}
+
+a::before{
+    content: '\226B';
+}
